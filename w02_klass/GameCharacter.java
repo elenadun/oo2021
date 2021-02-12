@@ -1,6 +1,6 @@
 public class Character {
     public int x;
-    public int y;
+    public int y; // kommentaar
 
     public String name;
 
