@@ -7,6 +7,8 @@ public class Second {
         System.out.println(notEqual(4, 4));
 
         myMath();
+        myLogical();
+        
     } 
 
     public static String myName(){ // see on funktsioon

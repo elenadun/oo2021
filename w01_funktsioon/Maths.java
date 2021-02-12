@@ -7,9 +7,9 @@ public class Maths { // programm räägib minust, arvutab summat ja prindib kons
   public static void main(String [] args) { //main meetod, main meetod näitab, mis tegevused hakkab programm tegema
     System.out.println(hello()); //tervituse väljatrükk
     System.out.println(myAge(20)); //vanuse väljatrükk
-    System.out.println(mySex('N')); //soo väljatrüll
+    System.out.println(mySex('N')); //soo väljatrükk
     System.out.println(myFavouriteNumber(37, 37)); //true või false väljatrükk
-    System.out.println("Nüüd natukene arvutamist:"); 
+    System.out.println("Nuud natukene arvutamist:"); 
     
 
     Maths m = new Maths(); // uus objekt
@@ -22,11 +22,11 @@ public class Maths { // programm räägib minust, arvutab summat ja prindib kons
   } else if (result != 30){ 
       System.out.println("Summa ei ole 30");
   } 
-    System.out.println("Minu esimene Java kodutöö!");
+    System.out.println("Minu esimene Java kodutoo!");
 
   }
   public static String hello(){ //funktsioon, mis näitab tervitust
-    return "Tere! Tänu Java funktsioonidele siin saab näha natuke informatsiooni minu kohta:";
+    return "Tere! Tanu Java funktsioonidele siin saab naha natuke informatsiooni minu kohta:";
 }
   public static int myAge(int age){ // funktsioon, mis näitab vanust
     return age;

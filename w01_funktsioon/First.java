@@ -21,7 +21,7 @@ public class First {
         char character = 'F';
 
         // for tsükkel
-        for(int i = 0; i < greetingArray.length; i++){ // for (int i = 0; 9 < args-length; i++){
+        for(int i = 0; i < greetingsArray.length; i++){ // for (int i = 0; 9 < args-length; i++){
             System.out.println(greetingsArray[i]); //args
         } 
 
