@@ -35,7 +35,7 @@ public class Maths { // programm räägib minust, arvutab summat ja prindib kons
     return sex;
 }
   public static boolean myFavouriteNumber(int number1, int number2){ // funktsioon näitab, kas kaks mu lemmik arvu on võrdsed või mitte
-    return number1 != number2;
+    return number1 != number2; //funktsioon
 }
 
 }
