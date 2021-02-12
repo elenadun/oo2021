@@ -1,7 +1,7 @@
 public class First {
     public static void main(String[] args){
         System.out.println(args.length);
-        int[] numberArray = new int[5];
+        int[] numberArray = new int[5]; //kommentaar
         int numberArray2[] = new int[5];
 
         String[] stringArray = new String[5];
