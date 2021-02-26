@@ -17,4 +17,4 @@ public class Encryption {
     
 }
 
-//võetud internetist https://www.youtube.com/watch?v=8wlE6DgOWBs&t=301s Alex Lee
+// võetud internetist https://www.youtube.com/watch?v=8wlE6DgOWBs&t=301s Alex Lee
