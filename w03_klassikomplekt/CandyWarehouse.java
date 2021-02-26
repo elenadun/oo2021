@@ -8,7 +8,7 @@ public class CandyWarehouse{ // klass kommiladu
             shopAmount = nShopAmount;
         }
 
-        public int askWarehouseAmount(){ //public method askWarehouseAmount
+        public int askWarehouseAmount(){ //public  method askWarehouseAmount
             return warehouseAmount;
         }
 
