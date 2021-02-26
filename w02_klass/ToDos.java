@@ -23,6 +23,7 @@ public class ToDos {
     // printida mida on vaja teha ToDost
     System.out.println(needToDo + " punkt on veel tegemata");
 
+      
   }
   
 }
