@@ -1,22 +1,20 @@
 public class Toiduaine {
-
     String nimetus;
     double valgud;
-    double rasvad; 
-    double susivesikud; 
-
-    public Toiduaine(String toiduNimetus, double toiduValgud, double toiduRasvad, double toiduSusivesikud){
-
-        this.nimetus = toiduNimetus; 
-        this.valgud = toiduValgud; 
-        this.rasvad = toiduRasvad; 
-        this.susivesikud = toiduSusivesikud;
-
-        double protsentKokku = valgud + rasvad + susivesikud;
-
-        if(protsentKokku >= 100){
-            System.out.println("Protsent kokku ei saa ületada 100");
-        }
+    double rasvad;
+    double susivesikud;
+    
+    public Toiduaine(String nimetus, double valgud, double rasvad, double susivesikud) {
+    if (valgud + rasvad + susivesikud > 100.0) {
+    throw new IllegalArgumentException("Toiduaine koostisainete protsent kokku ületab 100%");
     }
+    
+    this.nimetus = nimetus;
+    this.valgud = valgud;
+    this.rasvad = rasvad;
+    this.susivesikud = susivesikud;
+    }
+    }
+
 
  
