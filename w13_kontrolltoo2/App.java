@@ -10,13 +10,12 @@ public class App {
         var rasvaKogusKartul = kartul.arvutaRasvaKogus();
 
 
-        var valkudeKogus = vorst.arvutaValkudeKogus();
-        var valkudeKogus = hapukoor.arvutaValkudeKogus();
-        var valkudeKogus = kartul.arvutaValkudeKogus();
+        var valkudeKogusVorst = vorst.arvutaValkudeKogus();
+        var valkudeKogusHapukoor = hapukoor.arvutaValkudeKogus();
+        var valkudeKogusKartul = kartul.arvutaValkudeKogus();
 
 
-        var süsivesikudeKogus = vorst.arvutaSüsivesikudeKogus();
-        var süsivesikudeKogus = vorst.arvutaSüsivesikudeKogus();
-        var süsivesikudeKogus = vorst.arvutaSüsivesikudeKogus();
-        
+        var süsivesikuteKogusVorst = vorst.arvutaSüsivesikudeKogus();
+        var süsivesikuteKogusHapukoor = vorst.arvutaSüsivesikudeKogus();
+        var süsivesikuteKogusKartul = vorst.arvutaSüsivesikudeKogus();
         
