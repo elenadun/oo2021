@@ -15,10 +15,17 @@ public class App {
         var valkudeKogusKartul = kartul.arvutaValkudeKogus();
 
 
-        var süsivesikuteKogusVorst = vorst.arvutaSüsivesikudeKogus();
-        var süsivesikuteKogusHapukoor = vorst.arvutaSüsivesikudeKogus();
-        var süsivesikuteKogusKartul = vorst.arvutaSüsivesikudeKogus();
-                
+        var süsivesikuteKogusVorst = vorst.arvutaSüsivesikuteKogus();
+        var süsivesikuteKogusHapukoor = hapukoor.arvutaSüsivesikuteKogus();
+        var süsivesikuteKogusKartul = kartul.arvutaSüsivesikuteKogus();
+
+
+        var kogusGrammidesVorst = vorst.naitaKogusGrammides();
+        var kogusGrammidesHapukoor = hapukoor.naitaKogusGrammides();
+        var kogusGrammidesKartul = kartul.naitaKogusGrammides();
+
+
+        
         System.out.println("vorstis on " + rasvaKogusVorst + "g rasva"); //leiame rasva
         System.out.println("hapukooris on " + rasvaKogusHapukoor + "g rasva");
         System.out.println("kartulis on " + rasvaKogusKartul + "g rasva");
@@ -29,9 +36,22 @@ public class App {
         System.out.println("kartulis on " + valkudeKogusKartul + "g valke");
 
 
+
         System.out.println("vorstis on " + süsivesikuteKogusVorst + "g süsivesikuid"); //leiame süsivesikud
         System.out.println("hapukooris on " + süsivesikuteKogusHapukoor + "g süsivesikuid");
         System.out.println("kartulis on " + süsivesikuteKogusKartul + "g süsivesikuid");
+
+
+
+        System.out.println("vorstis on " + kogusGrammidesVorst + "g "); //näitame kogus grammides
+        System.out.println("hapukooris on " + kogusGrammidesHapukoor + "g ");
+        System.out.println("kartulis on " + kogusGrammidesKartul + "g ");
+    
+
+
         }
+        
         }
+
+
         
