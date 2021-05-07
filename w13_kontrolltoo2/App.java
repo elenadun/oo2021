@@ -18,4 +18,20 @@ public class App {
         var süsivesikuteKogusVorst = vorst.arvutaSüsivesikudeKogus();
         var süsivesikuteKogusHapukoor = vorst.arvutaSüsivesikudeKogus();
         var süsivesikuteKogusKartul = vorst.arvutaSüsivesikudeKogus();
+                
+        System.out.println("vorstis on " + rasvaKogusVorst + "g rasva"); //leiame rasva
+        System.out.println("hapukooris on " + rasvaKogusHapukoor + "g rasva");
+        System.out.println("kartulis on " + rasvaKogusKartul + "g rasva");
+
+
+        System.out.println("vorstis on " + valkudeKogusVorst + "g valke"); //leiame valgud
+        System.out.println("hapukooris on " + valkudeKogusHapukoor + "g valke");
+        System.out.println("kartulis on " + valkudeKogusKartul + "g valke");
+
+
+        System.out.println("vorstis on " + süsivesikuteKogusVorst + "g süsivesikuid"); //leiame süsivesikud
+        System.out.println("hapukooris on " + süsivesikuteKogusHapukoor + "g süsivesikuid");
+        System.out.println("kartulis on " + süsivesikuteKogusKartul + "g süsivesikuid");
+        }
+        }
         
